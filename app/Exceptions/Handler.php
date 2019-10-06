@@ -43,7 +43,7 @@ class Handler
         if (json_last_error() !== JSON_ERROR_NONE) {
             $errorMessage = 'Something went wrong please try again later!';
         }
-
-        return sprintf('The api response for the uri "%s" is "%s"', $uri, $errorMessage);
+        return $errorMessage;
+        //return sprintf('The api response for the uri "%s" is "%s"', $uri, $errorMessage);
     }
 }
