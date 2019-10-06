@@ -46,3 +46,8 @@ php index.php [First country name] [Second country name]
 ```bash
 php index.php Spain Bangladesh
 ```
+
+## Tests
+```bash 
+./vender/bin/phpunit
+```
