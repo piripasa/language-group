@@ -5,7 +5,7 @@ namespace Tests;
 use PHPUnit\Framework\MockObject\Stub\ReturnValueMap;
 use PHPUnit\Framework\TestCase;
 
-abstract class UnitTest extends TestCase
+class UnitTest extends TestCase
 {
     /**
      * Create class with abstract params
