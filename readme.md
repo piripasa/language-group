@@ -4,7 +4,7 @@ A command-line application that will list all the countries which speaks the sam
 
 ## Language & tools
 
-- PHP7
+- PHP (>= 7.1.3)
 - Composer (for installing dependencies)
 
 ## Installation
@@ -12,6 +12,11 @@ A command-line application that will list all the countries which speaks the sam
 - Download or clone the repository.
 - `cd project_directory/` into the project root directory.
 - Run `composer install` to install dependencies
+
+#### In case of docker
+
+- Make sure `docker` & `docker-compose` installed in your PC.
+- Run `sh ./start.sh`
 
 ## How to Use
 Run the following command from your terminal:
